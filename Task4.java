@@ -7,7 +7,7 @@ public class Task4 {
         System.out.println("Enter a string to check if it's a palindrome: ");
         String input = scanner.nextLine();
         
-        //For case-insensitive comparison
+        // For case-insensitive comparison
         String normalized = input.toLowerCase();
         
         // Reverse the string
@@ -16,7 +16,7 @@ public class Task4 {
         // Check if original and reversed strings are equal
         boolean isPalindrome = normalized.equals(reversed);
         
-        // result
+        // Result
         if (isPalindrome) {
             System.out.println("is a palindrome!");
         } else {
