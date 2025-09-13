@@ -37,8 +37,6 @@ public class Task7{
         System.out.println(num1 + " - " + num2 + " = " + minus);
         System.out.println(num1 + " * " + num2 + " = " + product);
         System.out.println(num1 + " / " + num2 + " = " + quotient);
-        
-        
         scanner.close();
     }
 }
