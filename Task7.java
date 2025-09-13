@@ -21,7 +21,6 @@ public class Task7{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Get input from user
         System.out.print("Enter first number: ");
         float num1 = scanner.nextFloat();
         
@@ -33,7 +32,6 @@ public class Task7{
         float product = multiply(num1, num2);
         float quotient = divide(num1, num2);
         
-        // Display results
         System.out.println("\nResults:");
         System.out.println(num1 + " + " + num2 + " = " + plus);
         System.out.println(num1 + " - " + num2 + " = " + minus);
