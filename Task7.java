@@ -2,46 +2,44 @@ import java.util.Scanner;
 
 public class Task7{
 
-    public static int add(int a, int b){
+    public static float add(float a, float b) {
         return a + b;
     }
     
-    public static int subtract(int a, int b){
+    public static float subtract(float a, float b) {
         return a - b;
     }
-
-    public static int multiply(int a, int b){
+    
+    public static float multiply(float a, float b) {
         return a * b;
     }
-
-    public static int divide(int a, int b){
+    
+    public static float divide(float a, float b) {
         return a / b;
     }
-
-     public static void main(String[] args) {
+    
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-
+        // Get input from user
         System.out.print("Enter first number: ");
-        int num1 = scanner.nextInt();
+        float num1 = scanner.nextFloat();
         
         System.out.print("Enter second number: ");
-        int num2 = scanner.nextInt();
+        float num2 = scanner.nextFloat();
         
-        int plus = add(num1, num2);
-        int minus = subtract(num1, num2);
-        int product = multiply(num1, num2);
-        int quotient = divide(num1, num2);
+        float plus = add(num1, num2);
+        float minus = subtract(num1, num2);
+        float product = multiply(num1, num2);
+        float quotient = divide(num1, num2);
         
-
+        // Display results
         System.out.println("\nResults:");
         System.out.println(num1 + " + " + num2 + " = " + plus);
         System.out.println(num1 + " - " + num2 + " = " + minus);
         System.out.println(num1 + " * " + num2 + " = " + product);
+        System.out.println(num1 + " / " + num2 + " = " + quotient);
         
-        if (num2 != 0) {
-            System.out.println(num1 + " / " + num2 + " = " + quotient);
-        }
         
         scanner.close();
     }
