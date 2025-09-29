@@ -5,7 +5,6 @@ public class Task16 {
         System.out.println("Feeding gorilla: " + gorilla.feed(true));
         gorilla.groom();
         gorilla.pet();
-        
         System.out.println("Gorilla class implemented successfully!");
     }
 }
